@@ -1,13 +1,79 @@
-#title {
-  margin-left: 2vw;
-  margin-top: 5vh;
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+    background-color: #001a1a;
+    color: #a9a9b3;
 }
 
-#title > h1 {
-  font-size: 8vh;
-  font-weight: 400;
+@supports (font-variation-settings: normal) {
+  html {
+      font-family: 'Inter var', sans-serif;
+  }
 }
 
-#title > h3 {
-  font-size: 4vh;
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.54;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
+}
+
+.main {
+    width: 60%;
+    margin: 4rem auto 4rem auto;
+}
+
+.desc {
+    max-width: 50%;
+}
+
+@media(max-width: 700px) {
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+    .desc {
+        max-width: 100%;
+    }
+}
+
+.bigbutton {
+    font-size: 1.4rem;
+}
+
+a {
+    font-weight: 600;
+    background-image:
+        linear-gradient(
+            to bottom, #e57373 0%,
+            #e57373 100%
+        );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    text-decoration: none;
+    color: #a9a9b3;
+    transition: background-size .2s, color .2s;
+    width: auto;
+}
+
+a:hover {
+    color: #212121;
+    background-size: 4px 50px;
+}
+
+.smalla {
+    background-size: 2px 2px;
+}
+
+.menu > a {
+    display: inline-block;
+}
+
+.topbar {
+    margin-bottom: 10px;
+    font-weight:600;
+    letter-spacing: .1em;
 }
