@@ -47,3 +47,9 @@ h3 {
     margin-top: 5px;
     display: block;
 }
+
+@media(max-width: 700px) {
+    .card {
+        display: block;
+    }
+}
