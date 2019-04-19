@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: #212121;
+    color: #001a1a;
     background-size: 4px 50px;
 }
 
@@ -68,12 +68,25 @@ a:hover {
     background-size: 2px 2px;
 }
 
-.menu > a {
-    display: inline-block;
-}
-
 .topbar {
     margin-bottom: 10px;
     font-weight:600;
     letter-spacing: .1em;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
