@@ -3,13 +3,17 @@
 html {
     font-family: 'Inter', sans-serif;
     background-color: #002b36;
-    color: #a9a9b3;
+    color: #b0bec5;
 }
 
 @supports (font-variation-settings: normal) {
   html {
       font-family: 'Inter var', sans-serif;
   }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -44,13 +48,13 @@ a {
     background-repeat: repeat-x;
     background-size: 4px 4px;
     text-decoration: none;
-    color: #a9a9b3;
+    color: #b0bec5;
     transition: background-size .2s, color .2s;
     width: auto;
 }
 
 a:hover {
-    color: #001a1a;
+    color: #002b36;
     background-size: 4px 50px;
 }
 
