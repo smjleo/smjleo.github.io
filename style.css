@@ -69,6 +69,7 @@ a:hover {
 }
 
 #footer {
+    display: hidden;
     position: absolute;
     left: 0;
     right: 0;
