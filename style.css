@@ -6,8 +6,9 @@ html {
     color: #b0bec5;
 }
 
-body {
+* {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -15,7 +16,7 @@ p {
     font-weight: 400;
     line-height: 1.54;
     text-rendering: optimizeLegibility;
-    font-feature-settings: "liga","case","calt","zero","ss01","locl";
+    font-feature-settings: "liga","case","calt","ss01","locl";
 }
 
 .main {
