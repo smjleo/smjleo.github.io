@@ -3,7 +3,7 @@
 html {
     font-family: 'Karla', sans-serif;
     background-color: #002b36;
-    color: #b0bec5;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 * {
@@ -43,7 +43,7 @@ a {
     background-repeat: repeat-x;
     background-size: 4px 4px;
     text-decoration: none;
-    color: #b0bec5;
+    color: rgba(255, 255, 255, 0.76);
     transition: background-size .2s, color .2s;
     width: auto;
 }
