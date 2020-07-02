@@ -87,6 +87,7 @@ a:hover {
     }
     .desc {
         max-width: 100%;
+        margin-top: 10px;
     }
     #footer {
         padding-top: 20px;
