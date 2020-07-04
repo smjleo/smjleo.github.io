@@ -1,2 +1,2 @@
-# smjleo.github.io
+# smjleo.com
 Personal website.
